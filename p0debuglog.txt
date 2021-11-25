@@ -1,1 +1,92 @@
- 
+ ~/test-1-gururaghavendra95-1$ gcc -g p0original.c
+~/test-1-gururaghavendra95-1$ gdb a.out
+GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.out...done.
+(gdb) break main
+Breakpoint 1 at 0x64e: file p0original.c, line 4.
+(gdb) r
+Starting program: /home/runner/test-1-gururaghavendra95-1/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, main () at p0original.c:4
+4     printf("guru");
+(gdb) s
+__printf (format=0x55849c6006f4 "guru") at printf.c:28
+28  printf.c: No such file or directory.
+(gdb) c
+Continuing.
+guru[Inferior 1 (process 177) exited normally]
+(gdb) ~/test-1-gururaghavendra95-1$ gcc -g p0original.c
+Undefined command: "".  Try "help".
+(gdb) ~/test-1-gururaghavendra95-1$ gdb a.out
+Undefined command: "".  Try "help".
+(gdb) GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+Undefined command: "GNU".  Try "help".
+(gdb) Copyright (C) 2018 Free Software Foundation, Inc.
+Undefined command: "Copyright".  Try "help".
+(gdb) License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+Undefined command: "License".  Try "help".
+(gdb) This is free software: you are free to change and redistribute it.
+Undefined command: "This".  Try "help".
+(gdb) There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+Undefined command: "There".  Try "help".
+(gdb) and "show warranty" for details.
+Undefined command: "and".  Try "help".
+(gdb) This GDB was configured as "x86_64-linux-gnu".
+Undefined command: "This".  Try "help".
+(gdb) Type "show configuration" for configuration details.
+Undefined command: "Type".  Try "help".
+(gdb) For bug reporting instructions, please see:
+Undefined command: "For".  Try "help".
+(gdb) <http://www.gnu.org/software/gdb/bugs/>.
+Undefined command: "<http".  Try "help".
+(gdb) Find the GDB manual and other documentation resources online at:Undefined command: "Find".  Try "help".
+(gdb) <http://www.gnu.org/software/gdb/documentation/>.
+Undefined command: "<http".  Try "help".
+(gdb) For help, type "help".
+Undefined command: "For".  Try "help".
+(gdb) Type "apropos word" to search for commands related to "word"...
+Undefined command: "Type".  Try "help".
+(gdb) Reading symbols from a.out...done.
+Undefined command: "Reading".  Try "help".
+(gdb) (gdb) break main
+Undefined command: "".  Try "help".
+(gdb) Breakpoint 1 at 0x64e: file p0original.c, line 4.
+Undefined command: "Breakpoint".  Try "help".
+(gdb) (gdb) r
+Undefined command: "".  Try "help".
+(gdb) Starting program: /home/runner/test-1-gururaghavendra95-1/a.out Undefined command: "Starting".  Try "help".
+(gdb) warning: Error disabling address space randomization: Operation not permitted
+Undefined command: "warning".  Try "help".
+(gdb) 
+Undefined command: "warning".  Try "help".
+(gdb) Breakpoint 1, main () at p0original.c:4
+Undefined command: "Breakpoint".  Try "help".
+(gdb) 4     printf("guru");
+Undefined command: "4".  Try "help".
+(gdb) (gdb) s
+Undefined command: "".  Try "help".
+(gdb) __printf (format=0x55849c6006f4 "guru") at printf.c:28
+Undefined command: "__printf".  Try "help".
+(gdb) 28  printf.c: No such file or directory.
+Undefined command: "28".  Try "help".
+(gdb) (gdb) c
+Undefined command: "".  Try "help".
+(gdb) Continuing.
+Undefined command: "Continuing".  Try "help".
+(gdb) guru[Inferior 1 (process 177) exited normally]
+Undefined command: "guru".  Try "help".
+(gdb) (gdb) 
