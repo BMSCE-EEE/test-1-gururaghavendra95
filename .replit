@@ -1,2 +1,7 @@
-language = "undefined"
-run = ""
+#include<stdio.h>
+int add(int , int);
+void main()
+{
+printf("enter the value of two numbers");
+scanf("%d %d" ,&x , &y);
+printf("%d+%d=%d", x,y,add(x,y));
